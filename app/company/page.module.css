@@ -1,0 +1,38 @@
+.container {
+  max-width: 960px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 8px;
+  }
+}
+
+.title {
+  font-size: 3.2rem;
+  font-weight: bold;
+  color: #1d5396;
+  padding: 32px 16px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 32px 16px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.data {
+  display: flex;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6fa;
+}
+.data-title {
+  width: 200px;
+  font-size: 1.8rem;
+}

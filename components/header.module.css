@@ -13,3 +13,13 @@
   color: #fff;
   background-color: #1d5396;
 }
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 12px;
+}
+.links a:hover {
+  transition: all 0.3s;
+  opacity: 0.7;
+}

@@ -8,6 +8,9 @@ export const Header = () => {
         <Link href="/">
           <h1 className={styles.logoTitle}>Next Corporation</h1>
         </Link>
+        <div className={styles.links}>
+          <Link href="/company">会社概要</Link>
+        </div>
       </header>
     </>
   );
