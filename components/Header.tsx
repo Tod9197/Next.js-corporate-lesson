@@ -10,6 +10,7 @@ export const Header = () => {
         </Link>
         <div className={styles.links}>
           <Link href="/company">会社概要</Link>
+          <Link href="/service">サービス紹介</Link>
         </div>
       </header>
     </>

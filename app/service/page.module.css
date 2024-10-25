@@ -1,0 +1,53 @@
+.container {
+  max-width: 960px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 0 8px;
+  }
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1d5396;
+  padding: 32px 16px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 32px 16px;
+  border-radius: 8px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #e6e6fa;
+}
+
+.section-title {
+  font-size: 20px;
+}
+
+.detail {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 16px;
+}
+
+.detail-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
